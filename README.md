@@ -4,3 +4,4 @@
 [![Actions Status](https://github.com/Shublon/frontend-project-lvl1/workflows/run_eslint/badge.svg)](https://github.com/Shublon/frontend-project-lvl1/actions)
 [![asciicast](https://asciinema.org/a/gwqMiovai9YC70SXayYjoHlLE.svg)](https://asciinema.org/a/gwqMiovai9YC70SXayYjoHlLE)
 https://asciinema.org/a/hIUIeDGXn1jxQLehOxWdjrs9f
+https://asciinema.org/a/DygPO5w1apLhXvJwlCOQfYimE

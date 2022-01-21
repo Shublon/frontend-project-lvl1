@@ -34,6 +34,6 @@ const brainCalc = () => {
       return `'${answer}' is wrong answer ;(. Correct answer was '${resault}'.\nLet's try again, ${name}!`;
     }
   }
-  return `Congratilations, ${name}!`;
+  return `Congratulations, ${name}!`;
 };
 console.log(brainCalc());

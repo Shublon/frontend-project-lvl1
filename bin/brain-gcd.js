@@ -24,6 +24,6 @@ const brainNOD = () => {
       return `'${answer}' is wrong answer ;(. Correct answer was '${n1}'.\nLet's try again, ${name}!`;
     }
   }
-  return `Congratilations, ${name}!`;
+  return `Congratulations, ${name}!`;
 };
 console.log(brainNOD());

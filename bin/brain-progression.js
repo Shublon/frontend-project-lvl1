@@ -29,6 +29,6 @@ const brainProgress = () => {
       return `'${answer}' is wrong answer ;(. Correct answer was '${deleted}'.\nLet's try again, ${name}!`;
     }
   }
-  return `Congratilations, ${name}!`;
+  return `Congratulations, ${name}!`;
 };
 console.log(brainProgress());

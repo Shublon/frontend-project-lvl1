@@ -3,9 +3,9 @@ import readlineSync from 'readline-sync';
 
 const getRandomInt = () => Math.floor(Math.random() * (100 - 1)) + 1;
 const getRandomArr = () => {
-    const rand = Math.floor(Math.random() * 3);
-    const array = ['+', '-', '*'];
-    return array[rand];
+  const rand = Math.floor(Math.random() * 3);
+  const array = ['+', '-', '*'];
+  return array[rand];
 };
 
 const brainCalc = () => {
@@ -21,19 +21,19 @@ const brainCalc = () => {
     console.log(`Question: ${n1} ${sign} ${n2}`);
     let resault = 0;
     if (sign === '+') {
-        resault = n1 + n2;
+      resault = n1 + n2;
     } else if (sign === '-') {
-        resault = n1 - n2;
-    } else if (sign == '*') {
-        resault = n1*n2;
+      resault = n1 - n2;
+    } else if (sign === '*') {
+      resault = n1 * n2;
     }
     const answer = readlineSync.question('Your answer: ');
     if (resault === Number(answer)) {
-        console.log('Correct!');
+      console.log('Correct!');
     } else {
-        return `'${answer}' is wrong answer ;(. Correct answer was '${resault}'.\nLet's try again, ${name}!`;
+      return `'${answer}' is wrong answer ;(. Correct answer was '${resault}'.\nLet's try again, ${name}!`;
     }
   }
-return `Congratilations, ${name}!`;
+  return `Congratilations, ${name}!`;
 };
 console.log(brainCalc());

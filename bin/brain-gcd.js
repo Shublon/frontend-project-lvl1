@@ -14,17 +14,16 @@ const brainNOD = () => {
     let n1 = getRandomInt();
     let n2 = getRandomInt();
     console.log(`Question: ${n1} ${n2}`);
-    let resault = 0;
 
     while (n2 !== 0) n2 = n1 % (n1 = n2);
 
     const answer = readlineSync.question('Your answer: ');
     if (n1 === Number(answer)) {
-        console.log('Correct!');
+      console.log('Correct!');
     } else {
-        return `'${answer}' is wrong answer ;(. Correct answer was '${n1}'.\nLet's try again, ${name}!`;
+      return `'${answer}' is wrong answer ;(. Correct answer was '${n1}'.\nLet's try again, ${name}!`;
     }
   }
-return `Congratilations, ${name}!`;
+  return `Congratilations, ${name}!`;
 };
 console.log(brainNOD());
